@@ -1,0 +1,66 @@
+.AdListComponent__container {
+
+}
+
+.AdListComponent__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.AdListComponent__description,
+.AdListComponent__price,
+.AdListComponent__discount {
+  font-size: 14px;
+}
+
+.AdListComponent__description {
+  color: #8e8e8e;
+  margin-bottom: 15px;
+}
+
+.AdListComponent__discount {
+  margin-bottom: 15px;
+  color: #4f9edf;
+  font-style: italic;
+}
+
+.AdListComponent__addToCartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.AdListComponent__addToCartButton {
+  font-size: 14px;
+  padding: 6px 16px;
+  background-color: #1d9ede;
+  color: #fff;
+  font-weight: 700;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.AdListComponent__addToCartButton:hover {
+  background-color: #1d9edeba;
+}
+
+.AdListComponent__adList {
+  display: flex;
+  border-bottom: 1px solid #d8d8d8d6;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.AdListComponent__priceDrop {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #8e8e8e;
+}
+
+.AdListComponent__quantity {
+  width: 30px;
+  padding: 10px;
+}

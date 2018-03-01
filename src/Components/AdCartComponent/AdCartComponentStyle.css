@@ -1,0 +1,46 @@
+.AdCartComponent__orderedItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.AdCartComponent__itemType {
+  flex: 3;
+}
+
+.AdCartComponent__itemQuantity {
+  flex: 1;
+}
+
+.AdCartComponent__itemPrice{
+  flex: 2
+}
+
+.AdCartComponent__itemQuantity {
+  text-align: left;
+}
+.AdCartComponent__itemPrice {
+  text-align: right;
+}
+
+.AdCartComponent__total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+  margin-top: 15px;
+}
+
+.AdCartComponent__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.AdCartComponent__totalLabel,
+.AdCartComponent__totalValue {
+  margin-top: 15px;
+}
+
+.AdCartComponent__totalLabel {
+  font-weight: 600;
+}

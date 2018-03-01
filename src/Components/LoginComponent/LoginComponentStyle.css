@@ -1,0 +1,38 @@
+.LoginComponent__container {
+  width: 100%;
+  max-width: 30rem;
+  margin: 25px auto;
+  padding: 2rem 2rem;
+  text-align: center;
+  box-shadow: 2px 3px 10px 2px #9e9595bf;
+}
+
+.LoginComponent__title {
+  margin-top: 0;
+}
+
+.LoginComponent__usernameTextInput {
+  font-size: 16px;
+  padding: 10px;
+  min-width: 210px;
+}
+
+.LoginComponent__longinButton {
+  font-size: 16px;
+  padding: 9px 20px;
+  margin-top: 15px;
+  background-color: #32c787;
+  color: #fff;
+  font-weight: 700;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.LoginComponent__longinButton:hover {
+  background-color: #32c787ba;
+}
+
+.LoginComponent__specialCustomer {
+  margin-top: 15px;
+}

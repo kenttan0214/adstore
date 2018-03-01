@@ -1,0 +1,41 @@
+.AdListComponent__header {
+  background-color: #32c787;
+  color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.AdListComponent__user {
+  float: right;
+}
+
+.AdListComponent__logout {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.AdListComponent__brand {
+    line-height: 100%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.AdListComponent__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 70rem;
+  margin: 25px auto;
+  padding: 2rem 2rem;
+  box-shadow: 2px 3px 10px 2px #9e9595bf;
+}
+
+.AdListComponent__list {
+  flex: 3;
+}
+
+.AdListComponent__cart {
+  flex: 1;
+  margin-left: 50px;
+}
